@@ -1,0 +1,48 @@
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+  
+
+.container-login100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: -webkit-linear-gradient(-135deg, #040d35, #3a86f8);
+    background: -o-linear-gradient(-135deg, #2653e9, #4158d0);
+    background: -moz-linear-gradient(-135deg, #0f0338, #4158d0);
+    background: linear-gradient(-135deg, #020118, #226b81);
+}
+
+.card {
+    width: 630px;
+    height: 170px;
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
